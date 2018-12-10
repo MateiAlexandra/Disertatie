@@ -353,7 +353,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				if (PDFObject.supportsPDFs) {
 					PDFObject.embed("./assets/pdf/cv.pdf", "#cvContainer");
 				} else {
-					document.getElementById('cvContainer').innerHTML = "<p>Resume failed to load. Please click <a href='./assets/pdf/cv.pdf'>here</a></p>"
+					document.getElementById('cvContainer').innerHTML = "<p>Mobile detected. Click <a href='./assets/pdf/cv.pdf'>here</a> to load the resume.</p>"
 				}
 				
 			</script>
